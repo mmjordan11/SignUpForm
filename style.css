@@ -33,7 +33,7 @@ header {
 }
 
 main {
-  padding: 20px;
+  padding: 0 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -81,6 +81,9 @@ form {
 
 .formHeader {
   font-size: 1.5rem;
+  margin-top: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .formRow {
@@ -162,6 +165,10 @@ main p,
   align-self: center;
 }
 
+main p {
+  padding-bottom: 20px;
+}
+
 main p a {
   text-decoration: none;
   font-weight: 700;
@@ -172,6 +179,14 @@ main p a:hover {
   text-decoration: none;
   font-weight: 900;
   color: #596D48;
+}
+
+footer {
+  background-color: #596D48;
+  color: #ffffff;
+  margin: auto -20px 0 -20px;
+  padding: 10px;
+  text-align: center;
 }
 
 @media only screen and (min-width: 1000px) {
